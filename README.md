@@ -1,1 +1,1 @@
-# python-challenge
+# python-challenge for KU Boot Camp
