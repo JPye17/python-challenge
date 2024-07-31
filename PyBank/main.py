@@ -49,6 +49,7 @@ with open(csvpath) as csvfile:
 # If statment for average change
 if revenue_change_list:
 	average_change = sum(revenue_change_list)/len(revenue_change_list)
+	round(average_change,2)
 else:
 	average_change = 0 
 
@@ -62,7 +63,7 @@ with open(output_path, "w") as csvfile:
 	csvwriter.writerow([f"----------------------------"])
 	csvwriter.writerow([f"Total Months: {total_months}"])
 	csvwriter.writerow([f"Total Revenue: ${total_revenue}"])
-	csvwriter.writerow([f'Average Change: {average_change}'])
+	csvwriter.writerow([f'Average Change: {round(average_change,2)}'])
 	csvwriter.writerow([f"Greatest Incease in Profits: {greatest_pl_increase[0]} on (${greatest_pl_increase[1]})"])
 	csvwriter.writerow([f"Greatest Decrease in Profits: {greatest_pl_decrease[0]} on (${greatest_pl_decrease[1]})"])
 

@@ -2,6 +2,6 @@ Financial Analysis
 ----------------------------
 Total Months: 86
 Total Revenue: $22564198
-Average Change: -8311.105882352942
+Average Change: -8311.11
 Greatest Incease in Profits: Aug-16 on ($1862002)
 Greatest Decrease in Profits: Feb-14 on ($-1825558)
